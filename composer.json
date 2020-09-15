@@ -1,6 +1,6 @@
 {
     "name": "abottarini/laravel-nova-traits",
-    "description": "a set of useful Laravel Nova Traits for your Resources",
+    "description": "A set of useful Laravel Nova Traits for your Resources",
     "type": "library",
     "license": "MIT",
     "authors": [

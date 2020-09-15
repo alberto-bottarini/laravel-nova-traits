@@ -20,6 +20,10 @@ class MyResource extends Resource
 
 ## Available Traits
 
-- **HiddenFromNavigation**: Remove resource from navigation bar
+- **HiddenFromNavigation**: Removes resource from navigation bar
+- **Uncreatable**: Disables create action for all users
+- **Unupdatable**: Disables update action for all users
+- **Undeletable**: Disables delete action for all users
+- **ReadOnly**: Makes resource read-only (is an alias of Uncreatable + Unupdatable + Undeletable)
 
 

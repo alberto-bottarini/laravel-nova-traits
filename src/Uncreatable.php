@@ -4,10 +4,10 @@ namespace AlbertoBottarini\LaravelNovaTraits;
 
 use Illuminate\Http\Request;
 
-trait HiddenFromNavigation
+trait Uncreatable
 {
 
-    public static function availableForNavigation(Request $request)
+    public static function authorizedToCreate(Request $request)
     {
         return false;
     }
