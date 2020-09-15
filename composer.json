@@ -1,0 +1,22 @@
+{
+    "name": "abottarini/laravel-nova-traits",
+    "description": "a set of useful Laravel Nova Traits for your Resources",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Alberto Bottarini",
+            "email": "alberto.bottarini@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AlbertoBottarini\\LaravelNovaTraits\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    }
+}
