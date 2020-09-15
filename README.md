@@ -3,7 +3,7 @@ This package contains a set of useful Laravel Nova Traits for your Resources.
 
 ## Installation
 ```shell
-composer install alberto-bottarini/laravel-nova-traits
+composer require abottarini/laravel-nova-traits
 ```
 
 ## Usage
