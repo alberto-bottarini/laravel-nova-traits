@@ -24,7 +24,7 @@ class MyResource extends Resource
 - **Uncreatable**: Disables create action for all users
 - **Unupdatable**: Disables update action for all users
 - **Undeletable**: Disables delete action for all users
-- **ReadOnly**: Makes resource read-only (is an alias of Uncreatable + Unupdatable + Undeletable)
+- **ReadOnlyResource**: Makes resource read-only (is an alias of Uncreatable + Unupdatable + Undeletable)
 - **RedirectToViaResource**: Redirects user to "via" Resource after creating or updating a child Resource
 
 
