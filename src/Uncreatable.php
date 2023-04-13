@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 trait Uncreatable
 {
 
-    public function authorizedToCreate(Request $request)
+    public static function authorizedToCreate(Request $request)
     {
         return false;
     }
