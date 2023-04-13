@@ -4,7 +4,7 @@ namespace AlbertoBottarini\LaravelNovaTraits;
 
 use Illuminate\Http\Request;
 
-trait Uncreatable
+trait Unreplicable
 {
 
     public static function authorizedToReplicate(Request $request)
